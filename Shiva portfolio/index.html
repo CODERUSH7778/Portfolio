@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b404e5854.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png"  class="Logo" >
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Devloper</p>
+            <h1 class="mixed-color"><span>Hi, I'm</span> <span >Shivan Gouda</span> </h1>
+            <p>From India</p>
+        </div>
+    </div>
+</div>
+<!--------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title mixed-color slide-in">About Me</h1>
+                <p>That's great to hear about your educational background and your pursuit of full-stack developer training. 
+                    Graduating from PDA College of Engineering in Gulbarga is a significant achievement, and it likely provided you with a strong foundation in technology and engineering. 
+                    Pursuing additional training in full-stack development at TAP Academy in Bangalore demonstrates your commitment to expanding your skill set and staying current in the dynamic field of web development. 
+                    This combination of academic qualifications and practical training is an excellent way to prepare for a successful career as a full-stack developer. 
+                    If you have any specific questions or need further information or advice related to your career or training, feel free to ask.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', this)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', this)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', this)">Education</p>                        
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>Core Java [JDK 20] & Python</li>
+                            <li><span>Database:</span><br>MySql</li>
+                            <li><span>Web Development:</span><br>HTML CSS & JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Pursuing Full Stack Developer training at Tap Academy.</li>
+                            <li><span>2022 - 2022</span><br>ICompleted an Internship at Cadmaxx Solutions Pvt Ltd.</li>
+                            <li><span>2019 - 2022</span><br>Engaged in a part-time role at Global Computers. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2023</span><br>Graduated with a Bachelor's Degree in Mechanical Engineering from PDA College of Engineering, Gulbarga.</li>
+                            <li><span>2019</span><br>Successfully completed Pre-University Education at Shree Guru Ind PU College, Gulbarga.</li>
+                            <li><span>2017</span><br>Completed Secondary Education at The New Noble Boys High School, Gulbarga.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services-->
+<div id="services">
+    <div id="container">
+        <h1 class="mixed-color slide-in">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Application Developmen</h2>
+                <p>Full-stack developers can create web applications from start to finish,
+                    handling both the client-side (front-end) and server-side (back-end) development,
+                    ensuring a seamless user experience.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">Learn more<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Front-end Development</h2>
+                <p>They design and build the user interface of a website or web application.
+                    This includes creating responsive, user-friendly, and visually appealing web pages 
+                    using HTML, CSS, and JavaScript.</p>
+                    <a href="https://en.wikipedia.org/wiki/Front-end_web_development " target="_blank">Learn more<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Back-end Development</h2>
+                <p>Full-stack developers work on the server-side of the application.
+                    They manage databases, implement server logic, and ensure the application's functionality, security,
+                    and performance.</p>
+                    <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Learn more<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-----------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="mixed-color slide-in">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The Application lets you to connect to the people in any part of the world</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The Application lets you to Listen to music of different artists all around world </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>The Application is used to provide sales and services of goods through this platform</p>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="mixed-color slide-in">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>stephenvb01@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="Social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/stephen_7778" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/shivan-gouda-6a4563281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/shivangouda_resume.pdf" target="_blank" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>   
+                    <button type="submit" class="btn btn2">Submit</button>            
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>  Shivan Gouda [Director and Co founder @ UNIX UNITY IMPORT AND EXPORT]</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, element) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        element.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    let prevScrollPos = window.pageYOffset;
+
+window.addEventListener("scroll", function() {
+    const currentScrollPos = window.pageYOffset;
+    const headerImage = document.querySelector("#header img");
+
+    if (currentScrollPos > prevScrollPos) {
+        // Scrolling down, hide the image
+        headerImage.classList.add("hidden");
+    } else if (currentScrollPos === 0) {
+        // At the top of the page, show the image
+        headerImage.classList.remove("hidden");
+    }
+
+    prevScrollPos = currentScrollPos;
+});
+let headerText = document.querySelector(".header-text");
+let h1Text = document.querySelector(".header-text h1 span");
+let p1Text = document.querySelector(".header-text p");
+let p2Text = document.querySelector(".header-text p:last-child");
+let lastScrollPos = 0;
+
+window.addEventListener("scroll", function() {
+    const currentScrollPos = window.scrollY;
+
+    // Adjust these trigger distances as needed to control when each message should disappear
+    const triggerDistanceH1 = 100; // For "Shivan Gouda"
+    const triggerDistanceP1 = 50; // For the first "From India"
+    const triggerDistanceP2 = 150; // For the second "From India"
+
+    if (currentScrollPos > lastScrollPos) {
+        // Scrolling down
+        if (currentScrollPos > triggerDistanceH1) {
+            h1Text.style.opacity = 0;
+        }
+        if (currentScrollPos > triggerDistanceP1) {
+            p1Text.style.opacity = 0;
+        }
+        if (currentScrollPos > triggerDistanceP2) {
+            p2Text.style.opacity = 0;
+        }
+    } else {
+        // Scrolling up
+        if (currentScrollPos <= triggerDistanceH1) {
+            h1Text.style.opacity = 1;
+        }
+        if (currentScrollPos <= triggerDistanceP1) {
+            p1Text.style.opacity = 1;
+        }
+        if (currentScrollPos <= triggerDistanceP2) {
+            p2Text.style.opacity = 1;
+        }
+    }
+    lastScrollPos = currentScrollPos;
+});
+// Define the options for the Intersection Observer
+const options = {
+  root: null, // Use the viewport as the root
+  rootMargin: '0px',
+  threshold: 0.5, // Trigger the animation when 50% of the element is visible
+};
+// Create an Intersection Observer for subtitles with the .slide-in class
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target); // Stop observing once the animation is applied
+    }
+  });
+}, options);
+// Observe all elements with the .slide-in class
+const slideInElements = document.querySelectorAll('.slide-in');
+slideInElements.forEach(element => observer.observe(element));
+const angle = 20;
+const rotateCard = window;
+
+const lerp = (start, end, amount) => {
+	return (1 - amount) * start + amount * end;
+};
+
+const remap = (value, oldMax, newMax) => {
+	const newValue = ((value + oldMax) * (newMax * 2)) / (oldMax * 2) - newMax;
+	return Math.min(Math.max(newValue, -newMax), newMax);
+};
+
+window.addEventListener("DOMContentLoaded", (event) => {
+	const cards = document.querySelectorAll(".card");
+	cards.forEach((e) => {		
+		e.addEventListener("mousemove", (event) => {
+			const rect = e.getBoundingClientRect();
+			const centerX = (rect.left + rect.right) / 2;
+			const centerY = (rect.top + rect.bottom) / 2;
+			const posX = event.pageX - centerX;
+			const posY = event.pageY - centerY;
+			const x = remap(posX, rect.width / 2, angle);
+			const y = remap(posY, rect.height / 2, angle);
+			e.dataset.rotateX = x;
+			e.dataset.rotateY = -y;
+		});
+		
+		e.addEventListener("mouseout", (event) => {
+			e.dataset.rotateX = 0;
+			e.dataset.rotateY = 0;
+		});
+	});
+	
+	const update = () => {
+		cards.forEach((e) => {
+			let currentX = parseFloat(e.style.getPropertyValue('--rotateY').slice(0, -1));
+			let currentY = parseFloat(e.style.getPropertyValue('--rotateX').slice(0, -1));
+			if (isNaN(currentX)) currentX = 0;
+			if (isNaN(currentY)) currentY = 0;
+			const x = lerp(currentX, e.dataset.rotateX, 0.05);
+			const y = lerp(currentY, e.dataset.rotateY, 0.05);
+			e.style.setProperty("--rotateY", x + "deg");
+			e.style.setProperty("--rotateX", y + "deg");
+		})
+	}
+	setInterval (update,1000/60)
+});
+</script>
+
+</body>
+</html>
